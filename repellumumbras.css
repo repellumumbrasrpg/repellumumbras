@@ -930,7 +930,7 @@ padding:.85rem;
     font: 14px 'Playfair Display';
     text-transform: uppercase;
     border: var(--border1);
-    padding:10px;
+    padding:5px;
     color:var(--accent1);
 }
 
@@ -938,7 +938,6 @@ padding:.85rem;
     outline: var(--border1);
     outline-offset: -1px;
     border: 15px solid rgba(0,0,0,0.01);
-    margin: 10px 0 0;
     text-align: justify;
     text-align-last: left;
     font-size: 12px;
