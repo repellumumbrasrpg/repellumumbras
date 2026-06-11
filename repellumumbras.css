@@ -419,9 +419,7 @@ overflow: auto;
   font-weight: 700;
 }
 
-/* NO MIRES THE RETURN OF THE KING */
- 
-/*VARIABLES*/
+/* NO MIRES */
  
 :root:has(.nomires), :root:has(.nomires) *, :root:has(.nomires) *::before, :root:has(.nomires) *::after {
   /* ACENTOS Y TEXTO */
@@ -459,8 +457,6 @@ overflow: auto;
   --effect2-blend:color;
   --blur:blur(10px);
 }
- 
-/*ESTILO; edita solo si sabes lo que haces*/
  
 body#phpbb:has(a.mainmenu[href^="/register"]) {
   overflow:hidden;
@@ -676,8 +672,7 @@ body#phpbb.nomires {
 .nomires :where(.sd-cmp-2jVB1, .sd-cmp-1wlYk) {
   display: none;
 }
- 
-/*REGISTRO, PUEDES BORRAR HASTA EL SIGUIENTE COMENTARIO SI NO TE HACE FALTA*/
+
 .nomires-registro {
   & #nomiresSafe {
     margin-inline:auto;
@@ -830,14 +825,9 @@ body#phpbb.nomires {
   }
   
 }
-/*REGISTRO, PUEDES BORRAR DESDE EL ANTERIOR COMENTARIO SI NO TE HACE FALTA*/
- 
-/*COSAS DEL JS, NO TOQUES*/
 .unloaded { opacity:0; }
 html { background:black; }
 body#phpbb { transition:opacity ease 1s; }
- 
-/*CORRECCIÓN UPDATE VER CONTRASEÑA*/
  
 .password-container {
 flex-grow: 1;
@@ -857,6 +847,114 @@ padding:.85rem;
 }
 }
  
-/*CORRECCIÓN UPDATE VER CONTRASEÑA*/
- 
-/* NO MIRES THE RETURN OF THE KING */
+/* NO MIRES */
+
+/* Páginas */
+#hechizos, #familias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto!important;
+    margin: 0 -10px;
+}
+
+.htab, .famtab{
+    background: var(--tbckg1);
+    border: var(--border1);
+    backdrop-filter: blur(3px);
+    margin-right: 20px;
+}
+
+.htabs, .htab, .htab a, .famtabs, .famtab, .famtab a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.htab a, .famtab a {
+    padding: 10px;
+    border: var(--border1);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    flex-grow: 1;
+    color: #666;
+    margin-right: 10px;
+}
+
+.htab a.selected, .famtab a.selected {
+    font-weight: 900;
+    color: var(--accent1);
+    font-style: italic;
+}
+
+.htab a:last-of-type {margin-right: 0;}
+.famtab a:last-of-type {margin-right: 0;}
+
+.fam {
+    position: relative!important;
+    left: unset!important;
+    top: unset!important;
+    margin-right: 10px;
+    width: 240px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background: #111;
+}
+
+.fambody {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: auto!important;
+}
+
+.fam:last-of-type, .fam:nth-of-type(3n+0) {
+    margin-right: 0;
+}
+
+.fam>* {
+    background: var(--tbckg1);
+    backdrop-filter: blur(3px);
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+}
+
+.fam h {
+    text-align: center;
+    font: 14px 'Playfair Display';
+    text-transform: uppercase;
+    border: var(--border1);
+    padding:10px;
+    color:var(--accent1);
+}
+
+.fam p {
+    outline: var(--border1);
+    outline-offset: -1px;
+    border: 15px solid rgba(0,0,0,0.01);
+    margin: 10px 0 0;
+    text-align: justify;
+    text-align-last: left;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.fam p.famdesc {height: 100px; overflow: auto;}
+
+.fam p.famlista {font-size: 9px; text-align: left;}
+
+.fam p.famlista a {
+    color: #777;
+    text-transform:uppercase;
+    font-weight:700;
+}
+
+.fam p.famlista a:hover {color:#aaa;}
+
+.fam p.famlista em {color: var(--accent1);}
