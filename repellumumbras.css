@@ -191,8 +191,7 @@ margin-bottom: 2px;
 }
 
 .pinfo{
-font: 10px 'Montserrat';
-font-weight: 700px;
+font: 11px 'Montserrat';
 text-transform: uppercase;
 text-align: center;
 border-top: 1px solid #0a0a0a;
@@ -206,8 +205,7 @@ color: #000;
 }
 
 .pinfo2{
-font: 10px 'Montserrat';
-font-weight: 700px;
+font: 11px 'Montserrat';
 text-transform: uppercase;
 text-align: right;
 background: var(--spcolor);
