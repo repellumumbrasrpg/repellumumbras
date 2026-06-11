@@ -1,4 +1,4 @@
-.rol-box{
+.pbox{
 box-sizing: border-box;
 width: 550px;
 margin: 0 auto;
@@ -9,7 +9,7 @@ padding: 15px;
 outline: 20px solid #1f1f1f;
 }
 
-.rol-box strong{color: var(--spcolor);}
+.pbox strong{color: var(--spcolor);}
 
 .pimage{
 box-sizing: border-box;
