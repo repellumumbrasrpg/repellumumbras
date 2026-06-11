@@ -863,7 +863,7 @@ padding:.85rem;
     background: var(--tbckg1);
     border: var(--border1);
     backdrop-filter: blur(3px);
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .htabs, .htab, .htab a, .famtabs, .famtab, .famtab a {
