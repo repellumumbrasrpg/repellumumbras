@@ -6,7 +6,6 @@ margin-top: 20px;
 margin-bottom: 20px;
 border: 1px solid #0a0a0a;
 padding: 15px;
-outline: 20px solid #1f1f1f;
 }
 
 .pbox strong{color: var(--spcolor);}
