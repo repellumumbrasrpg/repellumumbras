@@ -51,7 +51,7 @@ text-align: center;
 }
 
 .ptitle2{
-color: var(--spcolor);
+background: var(--spcolor);
 }
 
 .psubtitle{
