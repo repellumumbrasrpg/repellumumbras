@@ -946,8 +946,7 @@ padding:.85rem;
 }
 
 .fam p.famdesc {height: 100px; overflow: auto;}
-
-.fam p.famlista {font-size: 9px; text-align: left;}
+.fam p.famlista {font-size: 10px; text-align: left;}
 
 .fam p.famlista a {
     color: #777;
@@ -956,5 +955,4 @@ padding:.85rem;
 }
 
 .fam p.famlista a:hover {color:#aaa;}
-
 .fam p.famlista em {color: var(--accent1);}
