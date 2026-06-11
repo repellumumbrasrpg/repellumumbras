@@ -199,6 +199,7 @@ border-bottom: 1px solid #0a0a0a;
 padding: 5px;
 margin-top: 20px;
 margin-bottom: 20px;
+border-radius: 5px;
 background: var(--spcolor);
 color: #000;
 }
@@ -211,6 +212,7 @@ background: var(--spcolor);
 border-bottom: 1px solid #0a0a0a;
 padding: 5px;
 margin-bottom: 20px;
+border-radius: 5px;
 color: #000;
 }
 
