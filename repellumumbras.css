@@ -51,7 +51,7 @@ text-align: center;
 }
 
 .ptitle2{
-background: var(--spcolor);
+color: var(--spcolor);
 }
 
 .psubtitle{
@@ -199,14 +199,14 @@ border-bottom: 1px solid #0a0a0a;
 padding: 5px;
 margin-top: 20px;
 margin-bottom: 20px;
-color: var(--spcolor);
+background: var(--spcolor);
 }
 
 .pinfo2{
 font: 10px 'Montserrat';
 text-transform: uppercase;
 text-align: right;
-color: var(--spcolor);
+background: var(--spcolor);
 border-bottom: 1px solid #0a0a0a;
 padding: 5px;
 margin-bottom: 20px;
